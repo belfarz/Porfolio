@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="styles.css">
+    <script src="scrollReveal.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devjane.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Suleiman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack developer</p>
+        <img src="img/suleiman.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+    </section>
+    
+    
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Bringing visions to life is what I'm all about. With a keen eye for design and a passion for coding, I create seamless digital experiences that captivate users and drive results. From crafting elegant user interfaces to implementing robust backend solutions, I bridge the gap between aesthetics and functionality</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>E-Commerce Solutions</h3>
+                <p>In the ever-expanding world of online commerce, I specialize in developing dynamic e-commerce platforms that make shopping an enjoyable journey. By leveraging the latest technologies, I build secure and user-friendly systems that empower businesses to thrive in the digital marketplace.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Backend Magic</h3>
+                <p>Behind every great application lies a powerful backend that ensures smooth operations. With a focus on performance and reliability, I architect and develop backend systems that seamlessly handle data, transactions, and interactions. My code is the backbone that keeps everything running like clockwork.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class="about-me" id="about">
+       <h2 class="section__title section__title--about">Who I am</h2>
+       <p class="section__subtitle section__subtitle--about">Designer & developer based out of ABJ</p>
+       
+       <div class="about-me__body">
+           <p>Hey there, I'm Hassan Suleiman, a design enthusiast and coding aficionado hailing from ABJ. I'm here to bridge the gap between imagination and execution, crafting sleek designs and robust code that transform ideas into captivating digital experiences.</p>
+           <p>With an eye for detail and a passion for problem-solving, I'm dedicated to delivering results that speak for themselves. Whether it's designing an eye-catching user interface or optimizing backend performance, I'm all about turning concepts into reality in the most effective way possible. Let's collaborate and create something awesome!</p>
+       </div>
+       
+       <img src="img/suleiman2.png" alt="Jane leaning against a bus" class="about-me__img">
+    </section>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-1.html" class="portfolio__item">
+                <img src="img/portfolio_01.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-2.html" class="portfolio__item">
+                <img src="img/portfolio_02.png" alt="" class="portfolio__img">
+            </a>
+            
+
+        </div>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-3.html" class="portfolio__item">
+                <img src="img/portfolio_03.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-4.html" class="portfolio__item">
+                <img src="img/portfolio_04.png" alt="" class="portfolio__img">
+            </a>
+            
+
+            </a>            
+        </div>
+    </section>
+    
+    <!--Skills bar-->
+
+    <section id="skills">
+        <h2 align="center" class="skill-bar_h2">My Skills</h2>
+        <div class="skill-bar">
+            <div class="container">
+                <div class="circular-progress1" id="test1">
+                    <span class="progress-value1">0%</span>
+                </div>
+                <span class="text">HTML & CSS</span>
+            </div>
+        
+            <div class="container">
+                <div class="circular-progress2" id="test2">
+                    <span class="progress-value2">0%</span>
+                </div>
+                <span class="text">REACT & NODE.JS</span>
+            </div>
+        
+            <div class="container">
+                <div class="circular-progress3" id="test3">
+                    <span class="progress-value3">0%</span>
+                </div>
+                <span class="text">JAVA</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:hello@jane.dev" class="footer__link">suleiman3888@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
