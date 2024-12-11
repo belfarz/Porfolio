@@ -1,6 +1,11 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link')
 
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+});
+
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
 });
@@ -35,9 +40,11 @@ function startAnim(skill){
     if(skill==="test1"){
       skillAnim(1,20,90);
     }else if (skill==="test2") {
-      skillAnim(2,10,60);
-    } else {
+      skillAnim(2,15,75);
+    } else if(skill==="test3"){
       skillAnim(3,5,50) 
+    }else{
+      skillAnim(4,10,60)
     }
 }
 
@@ -54,7 +61,7 @@ function startAnim(skill){
   }
 
 
-  const mySkills = ["test1","test2","test3"]
+  const mySkills = ["test1","test2","test3","test4"]
 
   mySkills.map(skill => {
         // Create the observer
@@ -87,3 +94,5 @@ function startAnim(skill){
         distance: '300px',
 
     });
+
+    

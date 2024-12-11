@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="scrollReveal.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="logo">
+         <div class="logo">
             <img src="img/devjane.png" alt="">
-        </div>
+        </div> 
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -42,18 +45,20 @@
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
             <div class="service">
-                <h3>Design + Development</h3>
-                <p>Bringing visions to life is what I'm all about. With a keen eye for design and a passion for coding, I create seamless digital experiences that captivate users and drive results. From crafting elegant user interfaces to implementing robust backend solutions, I bridge the gap between aesthetics and functionality</p>
+                <h3>Web Development</h3>
+                <p class="wrap">
+                    I develop responsive, fast-loading, and visually appealing websites tailored to meet client needs. From crafting sleek, interactive frontends to engineering robust backend functionalities, I bridge the gap between design and performance. My web solutions are built with modern frameworks and technologies, ensuring scalability, accessibility, and long-term value.
+                </p>
             </div> <!-- / service -->
             
             <div class="service">
-                <h3>E-Commerce Solutions</h3>
-                <p>In the ever-expanding world of online commerce, I specialize in developing dynamic e-commerce platforms that make shopping an enjoyable journey. By leveraging the latest technologies, I build secure and user-friendly systems that empower businesses to thrive in the digital marketplace.</p>
+                <h3>Mobile App Development</h3>
+                <p class="wrap">From ideation to deployment, I create intuitive and high-performance mobile applications that deliver exceptional user experiences. By integrating cutting-edge tools and frameworks, I build apps that are both feature-rich and efficient. Whether it's Android, iOS, or cross-platform development, I focus on usability, performance, and reliability to bring ideas to life.</p>
             </div> <!-- / service -->
             
             <div class="service">
-                <h3>Backend Magic</h3>
-                <p>Behind every great application lies a powerful backend that ensures smooth operations. With a focus on performance and reliability, I architect and develop backend systems that seamlessly handle data, transactions, and interactions. My code is the backbone that keeps everything running like clockwork.</p>
+                <h3>Backend & API Expertise</h3>
+                <p class="wrap">I specialize in designing and implementing powerful backend systems and APIs that serve as the backbone of modern applications. Whether it's building secure RESTful APIs, managing databases, or optimizing server performance, I ensure seamless communication between applications and their users. My backend solutions are scalable, secure, and built to handle real-world challenges.</p>
             </div> <!-- / service -->
         </div> <!-- / services -->
         
@@ -79,6 +84,8 @@
         <h2 class="section__title section__title--work">My work</h2>
         <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
         
+      <div class="mywork-img">
+        
         <div class="portfolio">
             <!-- Portfolio item 01 -->
             <a href="portfolio-1.html" class="portfolio__item">
@@ -87,9 +94,8 @@
             
             <!-- Portfolio item 02 -->
             <a href="portfolio-2.html" class="portfolio__item">
-                <img src="img/portfolio_02.png" alt="" class="portfolio__img">
-            </a>
-            
+                <img src="img/Screenshot 2023-12-07 132816.png" alt="" class="portfolio__img">
+            </a> 
 
         </div>
 
@@ -101,18 +107,20 @@
             
             <!-- Portfolio item 02 -->
             <a href="portfolio-4.html" class="portfolio__item">
-                <img src="img/portfolio_04.png" alt="" class="portfolio__img">
+                <img src="img/asteria.png" alt="" class="portfolio__img">
             </a>
-            
-
-            </a>            
+                      
         </div>
+
+    </div>
+
     </section>
     
     <!--Skills bar-->
 
     <section id="skills">
         <h2 align="center" class="skill-bar_h2">My Skills</h2>
+
         <div class="skill-bar">
             <div class="container">
                 <div class="circular-progress1" id="test1">
@@ -134,6 +142,14 @@
                 </div>
                 <span class="text">JAVA</span>
             </div>
+            
+            <div class="container">
+                <div class="circular-progress4" id="test4">
+                    <span class="progress-value4">0%</span>
+                </div>
+                <span class="text">FLUTTER & DART</span>
+            </div>
+            
         </div>
     </section>
     
