@@ -584,6 +584,7 @@ header {
 .swiper {
   width: 60vw;
   margin-bottom: 20px;
+
 }
 
 .swiper-slide {
@@ -594,6 +595,7 @@ header {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
