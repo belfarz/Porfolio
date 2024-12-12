@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  overflow-xs: hidden;
+  overflow-x: hidden;
 }
 /* Custom Properties, update these for your own design */
 
