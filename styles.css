@@ -3,7 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+body{
+  overflow: hidden;
+}
 /* Custom Properties, update these for your own design */
 
 :root {
